@@ -1,0 +1,15 @@
+EXTRAKEY_ENABLE = yes    # Audio control and System control
+RGBLIGHT_ENABLE = no   # Enable keyboard RGB underglow
+RGBLIGHT_DRIVER = WS2812
+SPLIT_KEYBOARD = yes
+RGB_MATRIX_ENABLE = no
+RGB_MATRIX_DRIVER = WS2812
+OLED_ENABLE = no
+OLED_DRIVER = SSD1306
+ENCODER_ENABLE = no
+DIP_SWITCH_ENABLE = no
+LTO_ENABLE = yes
+
+RGB_MATRIX_SUPPORTED = yes
+
+SRC += oled_display.c
